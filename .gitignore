@@ -9,6 +9,10 @@
 *.test
 *.out
 
+# Go バイナリファイル
+/bin/
+/bin/*
+
 # Go パッケージ
 vendor/
 
@@ -24,7 +28,6 @@ vendor/
 
 # Air のキャッシュ
 .air/
-
 
 # Gitのメタ情報
 .git/
