@@ -1,1 +1,33 @@
 .idea/
+
+# Go ビルド成果物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go パッケージ
+vendor/
+
+# ディレクトリ
+/tmp/
+/node_modules/
+/logs
+*.log
+
+# バイナリファイル
+*.bin
+*.key
+
+# Air のキャッシュ
+.air/
+
+
+# Gitのメタ情報
+.git/
+
+# 設定ファイル
+.env

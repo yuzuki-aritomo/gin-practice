@@ -1,0 +1,33 @@
+# Configuration file for air
+
+# Working directory
+root = "."
+tmp_dir = "tmp"
+
+[build]
+# Binary name pattern
+bin = "bin/main"
+
+# CMD build arguments
+cmd = "go build -o bin/main ./cmd/main.go"
+
+# Include subdirectories
+include_ext = ["go"]
+
+# Exclude directories
+exclude_dir = ["assets", "tmp", "bin"]
+
+# Exclude files
+exclude_file = ["*.test.go"]
+
+# Debug level
+debug = true
+
+# Delay after the last file change before restarting
+delays = "1000ms"
+
+# The patterns to follow for changes
+include = ["."]
+
+[log]
+time_format = "2006-01-02 15:04:05"
